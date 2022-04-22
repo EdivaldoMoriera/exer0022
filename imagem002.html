@@ -6,22 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamento de imagens</title>
     <style>
-        .trt{
-            background-color:aquamarine;
+        .bloco{
+            background-color:rgba(227, 212, 212, 0.631);
+            background-image: url(imagens/wallpaper003.jpg);
             height: 200px;
             border: 2px solid black;
             border-radius: 10px;
             margin: 10px;
-            border: gray;
         }
+        #q1{
+            background-position: left top;
+        }
+        #q2{
+            background-position: left center;
+        }
+        #q3{
+            background-position: right bottom;
+        }
+        #q4{
+            background-position: center center;
+        }
+
     </style>
 </head>
 
 <body>
-    <div class="trt"></div>
-    <div class="trt"></div>
-    <div class="trt"></div>
-    <div class="trt"></div>
+    <div class="bloco" id="q1"></div>
+    <div class="bloco" id="q2"></div>
+    <div class="bloco" id="q3"></div>
+    <div class="bloco" id="q4"></div>
 
 </body>
 </html>
